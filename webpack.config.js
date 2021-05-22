@@ -45,9 +45,9 @@ Encore.setPublicPath('/assets')
 | entrypoints.
 |
 */
-Encore.addEntry('app', './resources/js/app.ts')
+Encore.addEntry('app', './resources/js/app.tsx')
 Encore.enableTypeScriptLoader()
-
+Encore.enableReactPreset()
 /*
 |--------------------------------------------------------------------------
 | Copy assets
